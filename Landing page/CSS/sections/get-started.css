@@ -1,0 +1,20 @@
+.get-started-container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: var(--blue);
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.flex-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.get-started-container img {
+    width: 40px;
+    height: 40px;
+}

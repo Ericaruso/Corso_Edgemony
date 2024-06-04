@@ -1,0 +1,147 @@
+body {
+    background-color: rgba(208, 198, 174, 0.422);
+}
+
+h1 {
+    color: red;
+    font-size: xx-large;
+    font-weight: 100;
+}
+
+h2 {
+    color: orange;
+    font-size: x-large;
+    font-weight: 200;
+}
+
+h3 {
+    color: yellow;
+    font-size: large;
+    font-weight: 300;
+}
+
+h4 {
+    color: rgb(0, 255, 0);
+    font-size: medium;
+    font-weight: 400;
+}
+
+h5 {
+    color:rgb(0, 221, 255);
+    font-size: small;
+    font-weight: 500;
+}
+
+h6 {
+    color: rgb(146, 62, 255);
+    font-size: x-small;
+    font-weight: 600;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: line-through;
+}
+
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+
+a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.square-1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 255, 255);
+    position: static;
+    bottom: 50px;
+    left: 50px;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.square-1:hover {
+    background-color: rgb(160, 96, 220);
+}
+
+.square-2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(251, 160, 62);
+    position: static;
+    bottom: 50px;
+    left: 200px;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.square-2:hover {
+    background-color: rgb(171, 0, 91);
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: #a799ca;
+    }
+
+    .square-2 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .square-1 {
+        display: none;
+    }
+
+    .square-2 {
+        background-color: rgb(251, 160, 62);
+        left: 100px;
+    }
+
+    .square-2:hover {
+        background-color: rgb(171, 0, 91);
+    }
+}
+
+.rectangle {
+    width: 500px;
+    height: 100px;
+    background-color: rgb(101, 255, 103);
+    position: static;
+    bottom: 10%;
+    right: 10%;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.square-1, .square-2, .rectangle {
+    margin-bottom: 20px; 
+}
+
+.contenitor-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.element {
+    width: 50%;
+    height: 200px;
+    background-color: #ccc;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .contenitor-flex {
+        flex-wrap: wrap;
+    }
+
+    .element {
+        width: 25%;
+    }
+}

@@ -1,0 +1,40 @@
+@import url("css/reset.css");
+@import url("css/variables.css");
+
+@import url("./css/typography.css");
+@import url("css/layout.css");
+
+/* components */
+@import url("css/components/buttons.css");
+
+/* sections */
+@import url("css/sections/hero.css");
+@import url("css/sections/get-started.css");
+@import url("css/sections/footer.css");
+@import url("css/sections/features.css");
+@import url("css/sections/sub-hero.css");
+
+/* end sections */
+
+.Hero{
+    background-color: orange;
+    height: 900px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SubHero{
+    background-color: yellow;
+    height: 700px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.Reviews{
+    background-color: green;
+    height: 500px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}

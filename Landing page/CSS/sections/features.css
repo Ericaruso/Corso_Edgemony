@@ -1,0 +1,11 @@
+.features-card {
+text-align: center;
+}
+
+.features-container {
+    gap: 70px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 50px; 
+    padding-right: 50px; 
+}

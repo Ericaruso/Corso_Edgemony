@@ -1,0 +1,27 @@
+.button-container {
+    text-align: center; 
+}
+
+.custom-button {
+    display: inline-block;
+    border: none;
+    padding: auto;
+    margin: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-decoration: none;
+    
+}
+
+.custom-button img {
+    width: 180px;
+    height: auto;
+    vertical-align: middle;
+    
+}
+
+.custom-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
