@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%; 
+    max-height: 100%;
+}
+
+main{
+    background: rgb(244,206,215);
+    background: linear-gradient(0deg, rgba(244,206,215,1) 0%, rgba(255,255,217,1) 100%);
+
+}
+
+#movies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+.card {
+    font-family: "Quicksand", sans-serif;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px;
+    width: 200px;
+    text-align: center;
+    background-color: rgba(173, 255, 255, 0.482);
+}
+
+.card img {
+    width: 100%;
+}
+
+#data-type {
+    font-family: "Quicksand", sans-serif;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgba(173, 255, 255, 0.482);
+    font-size: 16px;
+    padding: 8px;
+    margin: 10px 0;
+}
+
+#pagination-container {
+    text-align: center; 
+
+}
+
+#prev-page, #next-page {
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    background-color: rgba(173, 255, 255, 0.482);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+    
+}
+
+label {
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
