@@ -1,0 +1,61 @@
+/* grid container */
+.app {
+    display:grid;
+    grid-template-areas:
+        'header'
+        'main'
+        'left'
+        'right'
+        'footer';
+}
+
+/* general column padding */
+.app > * {
+    height: 40vh; 
+    padding:1rem;
+}
+
+/* assign columns to grid areas */
+.app > .header {
+    grid-area:header;
+    background:#f97171;
+}
+.app > .main {
+    grid-area:main;
+    background:#fff;
+}
+.app > .left {
+    grid-area:left;
+    background:#f5d55f;
+}
+.app > .right {
+    grid-area:right;
+    background:#c5ed77;
+}
+.app > .footer {
+    grid-area:footer;
+    background:#72c2f1;
+}
+
+/* tablet breakpoint */
+@media (min-width:768px) {
+    .app {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            'header header'
+            'main main'
+            'left right'
+            'footer footer';
+    }
+}
+
+/* desktop breakpoint */
+@media (min-width:1024px) {
+    .app {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+            'header header header header'
+            'left main main right'
+            'footer footer footer footer';
+    }
+}

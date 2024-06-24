@@ -1,0 +1,49 @@
+/* set correct box model */
+* {
+    box-sizing:border-box;
+}
+
+/* flexbox container */
+.app {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+/* columns (mobile) */
+.app > * {
+    width:100%;
+    padding:1rem;
+}
+
+/* background colors */
+.app > .header {background:#f97171}
+.app > .main {background:#fff}
+.app > .left {background:#f5d55f}
+.app > .right {background:#c5ed77}
+.app > .footer {background:#72c2f1}
+
+/* tablet breakpoint */
+@media (min-width:768px) {
+    .app > .left,
+    .app > .right {
+        width:50%;
+    }
+}
+
+/* desktop breakpoint */
+@media (min-width:1024px) {
+    .app > .header {
+        order:-2; /* header first */
+    }
+    .app > .left {
+        /* left sidebar second (first in second row) */
+        order:-1; 
+    }
+    .app > .main {
+        width:50%;
+    }
+    .app > .left,
+    .app > .right {
+        width:25%;
+    }
+}
