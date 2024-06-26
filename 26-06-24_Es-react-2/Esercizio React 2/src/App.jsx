@@ -1,0 +1,20 @@
+import { Header } from "./components/Header";
+import { Footer } from "./components/Footer";
+import { Main } from "./components/Main";
+import "./App.css";
+
+// import posts from "./data.json";
+
+
+
+function App() {
+  return (
+    <>
+      <Header />
+      <Main />
+      <Footer />
+    </>
+  );
+}
+
+export default App;
