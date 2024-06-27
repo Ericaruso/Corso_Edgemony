@@ -1,0 +1,31 @@
+.button {
+    height: 60px;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    color: #f39c12;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px #999;
+    font-family: 'Nunito', sans-serif;
+}
+
+.button:active {
+    background-color: #555;
+
+    box-shadow: 0 2px #666;
+
+    transform: translateY(2px);
+
+}
+
+.button.operator {
+    color: #e74c3c;
+}
+
+.button.special {
+    color: #f1c40f;
+}
