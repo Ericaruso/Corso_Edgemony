@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+  min-height: 100vh;
+  margin: 0 auto;
+  background: rgb(255, 221, 141);
+  background: linear-gradient(0deg, rgba(255, 221, 141, 1) 0%, rgba(103, 177, 232, 1) 100%);
+  background-repeat: no-repeat;
+}
+
+:root {
+  font-family: "Bona Nova SC", serif;
+  font-weight: 400;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.87);
+
+}
+
+img {
+  max-width: 100%; 
+  height: auto;
+  width: 50%; 
+  max-width: 300px; 
+}

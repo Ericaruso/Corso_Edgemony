@@ -1,0 +1,15 @@
+.random-button {
+    font-family: "Bona Nova SC", serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    background-color: #007bff6c;
+    color: white;
+}
+
+.random-button:hover {
+    background-color: #007bff6c;
+}

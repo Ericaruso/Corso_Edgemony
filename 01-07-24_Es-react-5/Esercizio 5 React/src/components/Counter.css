@@ -1,0 +1,22 @@
+.counter-container {
+    margin-top: 25px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.counter-button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    background-color: #007bff6c;
+    color: white;
+}
+
+.counter-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
