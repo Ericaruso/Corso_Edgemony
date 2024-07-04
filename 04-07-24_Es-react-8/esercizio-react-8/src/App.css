@@ -1,0 +1,89 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #e6f0fa;
+}
+
+.mortgage-calculator {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  width: 300px;
+}
+
+.mortgage-calculator h2 {
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #e6b800;
+}
+
+.results {
+  margin-top: 20px;
+}
+
+.results p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.results p:first-of-type {
+  font-size: 24px;
+  font-weight: bold;
+  color: #003366;
+}
+
+
+.app-container {
+  display: flex;
+}
+
+.panel {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #003366; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.panel.image-panel {
+  margin-left: 10px; 
+}
+
+.panel.image-panel img {
+  max-width: 100%;
+  max-height: 100%;
+}
