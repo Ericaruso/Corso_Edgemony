@@ -1,60 +1,57 @@
-/* App.css */
-
-/* Importiamo un font retrò da Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
 
 body {
   font-family: 'Courier Prime', monospace;
-  background-color: #2f2f2f; /* Dark background */
-  color: #e0d7c3; /* Light beige text */
+  background-color: #2f2f2f; 
+  color: #e0d7c3; 
   margin: 0;
-  height: 100vh; /* Full viewport height */
+  height: 100vh; 
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  justify-content: center; 
+  align-items: center; 
 }
 
 .container {
   text-align: center;
-  max-width: 800px; /* Optional: to limit the width of the container */
+  max-width: 800px; 
   width: 100%;
 }
 
 h1 {
-  color: #a52a2a; /* Dark red/bordeaux */
+  color: #a52a2a; 
   margin-bottom: 20px;
 }
 
 form {
   display: flex;
-  flex-direction: row; /* Arrange elements in a row */
-  justify-content: center; /* Center elements horizontally */
-  align-items: center; /* Center elements vertically */
+  flex-direction: row; 
+  justify-content: center; 
+  align-items: center; 
   margin-bottom: 20px;
-  gap: 10px; /* Add some space between elements */
+  gap: 10px; 
 }
 
 input[type="text"] {
   padding: 10px;
-  border: 2px solid #a52a2a; /* Dark red/bordeaux */
+  border: 2px solid #a52a2a; 
   border-radius: 5px;
   font-size: 16px;
-  background-color: #3b3b3b; /* Dark input background */
-  color: #e0d7c3; /* Light text */
+  background-color: #3b3b3b; 
+  color: #e0d7c3; 
 }
 
 button {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  background-color: #a52a2a; /* Dark red/bordeaux */
+  background-color: #a52a2a; 
   color: rgb(40, 0, 0);
   font-size: 16px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #8b0000; /* Darker red */
+  background-color: #8b0000; 
 }
 
 ul {
@@ -63,7 +60,7 @@ ul {
 }
 
 li {
-  background-color: #4b2e2e; /* Dark brown */
+  background-color: #4b2e2e; 
   margin: 10px 0;
   padding: 10px;
   border-radius: 5px;
@@ -77,27 +74,27 @@ li span {
 }
 
 li button {
-  background-color: #b8860b; /* Dark goldenrod */
+  background-color: #b8860b;
 }
 
 li button:hover {
-  background-color: #8b5a2b; /* Darker brown */
+  background-color: #8b5a2b; 
 }
 
-/* Centering the filter input */
+
 .filter-container {
   display: flex;
-  justify-content: center; /* Center horizontally */
+  justify-content: center; 
   margin-bottom: 20px;
 }
 
 .filter-container input {
   padding: 10px;
-  border: 2px solid #a52a2a; /* Dark red/bordeaux */
+  border: 2px solid #a52a2a; 
   border-radius: 5px;
   font-size: 16px;
-  background-color: #3b3b3b; /* Dark input background */
-  color: #e0d7c3; /* Light text */
-  width: 80%; /* Optional: set width to 80% of the container */
-  max-width: 400px; /* Optional: max width */
+  background-color: #3b3b3b;
+  color: #e0d7c3; 
+  width: 80%; 
+  max-width: 400px; 
 }
