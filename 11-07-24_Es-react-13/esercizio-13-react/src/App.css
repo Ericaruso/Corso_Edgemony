@@ -1,0 +1,16 @@
+.product-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.images-section {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.product-info {
+    flex: 1;
+    max-width: 400px;
+}
