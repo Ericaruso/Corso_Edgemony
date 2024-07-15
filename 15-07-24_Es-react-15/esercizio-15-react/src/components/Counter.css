@@ -1,0 +1,12 @@
+.counter {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.counter button {
+    margin: 0 10px;
+}
+
+.counter span {
+    margin: 0 15px;
+}

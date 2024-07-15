@@ -1,0 +1,9 @@
+.post {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.post h2 {
+    margin-bottom: 10px;
+}
