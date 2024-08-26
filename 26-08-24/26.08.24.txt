@@ -1,0 +1,12 @@
+Risposte:
+
+1. Le componenti principali del mini-compilatore includono il Tokenizer (o Lexer), che suddivide il codice sorgente in token, ovvero le unità base del programma. 
+Il Parser trasforma questi token in un Abstract Syntax Tree (AST), che rappresenta la struttura del codice. Infine, il Code Generator converte l'AST in nuovo codice, 
+che può essere in un altro linguaggio o in una forma diversa.
+
+2. La funzione tokenizer analizza il codice sorgente carattere per carattere e lo suddivide in token, che sono le unità fondamentali del codice.
+
+3. Il parser è importante perché organizza i token in un AST, una struttura gerarchica che facilita la comprensione e la trasformazione del codice durante la compilazione.
+
+4. Per creare un conta caratteri in JavaScript, sarebbe utile l'approccio del tokenizer, che scorre il testo carattere per carattere, 
+anche se non è necessario l'intero processo di tokenizzazione.
