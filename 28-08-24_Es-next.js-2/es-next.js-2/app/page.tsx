@@ -1,6 +1,6 @@
 import { getUser } from "@/action/get-user";
 import { getUsers } from "@/action/get-users";
-import Button from "@/components/Button";
+import Button from "@/app/components/Button";
 
 export default async function Home() {
   const user = await getUser();
